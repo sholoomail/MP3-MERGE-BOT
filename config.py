@@ -6,7 +6,7 @@ class Config(object):
 	API_ID = int(os.getenv('API_ID',''))
 	OWNER = int(os.environ.get('OWNER',''))
 	OWNER_USERNAME = os.getenv('OWNER_USERNAME','')
-	PASSWORD = os.getenv('PASSWORD','mergebot')
+	PASSWORD = os.getenv('PASSWORD','')
 	DATABASE_URL=os.environ.get("DATABASE_URL","")
 	FLAG = int(os.getenv('FLAG',1))		# Dont Change this(unfinished feature!!) or else bot will stop working
 	PROGRESS = """
